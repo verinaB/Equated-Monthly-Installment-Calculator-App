@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Mortgage Amount Input -->
+    <EditText
+        android:id="@+id/mortgageAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:hint="@string/mortgage_hint"
+        android:inputType="number" />
+
+    <!-- Loan period Input -->
+    <EditText
+        android:id="@+id/Amortizationperiod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:hint="@string/period_hint"
+        android:inputType="number" />
+
+    <!-- Interest Rate Input -->
+    <EditText
+        android:id="@+id/interestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:hint="@string/rate_hint"
+        android:inputType="numberDecimal" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_button"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+    <!-- EMI Result Text -->
+    <TextView
+        android:id="@+id/emiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emi_result"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

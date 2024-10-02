@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="mortgage_hint">Enter Mortgage Amount</string>
+    <string name="period_hint">Enter Loan Amortization period (in years)</string>
+    <string name="rate_hint">Enter Interest Rate (%)</string>
+    <string name="calculate_button">Calculate EMI</string>
+    <string name="emi_result">Your EMI will appear here</string>
+</resources>
